@@ -1,0 +1,76 @@
+name: TutorialPlugin
+main: kei.test.plugin.TutorialPlugin
+version: 0.0.1
+api-version: 1.16
+commands:
+  stats:
+    description: show informations about a status of a player.
+    usage: /<command>
+  create:
+    description: create a new world
+    usage: /<command> [world name]
+    permission: kei.test.plugin.TutorialPlugin.create
+    permission-message: You don't have <permission>
+  join:
+    description: join other world
+    usage: /<command> [world name]
+  command:
+    description: command list
+    usage: /<command>
+  newinfo:
+    description: infomation about new function
+    usage: /<command>
+  home:
+    description: go to a home location which a player has register as respawn location
+    usage: /<command>
+  init:
+    description: go to a world spawn location
+    usage: /<command>
+  tutorial:
+    description: summon a tutorial NPC
+    usage: /<command> [NPC name]
+  tpblock:
+    description: get a block to teleport another location
+    usage: /<command>
+    permission: kei.test.plugin.TutorialPlugin.tpblock
+    permission-message: You don't have <permission>
+  trader:
+    description: summon a wonder trader
+    usage: /<command>
+    permission: kei.test.plugin.TutorialPlugin.trader
+    permission-message: You don't have <permission>
+  weaponer:
+    description: summon a weaponer
+    usage: /<command>
+    permission: kei.test.plugin.TutorialPlugin.weaponer
+    permission-message: You don't have <permission>
+  mage:
+    description: summon a mage
+    usage: /<command>
+    permission: kei.test.plugin.TutorialPlugin.mage
+    permission-message: You don't have <permission>
+  promage:
+    description: summon a professional mage
+    usage: /<command>
+    permission: kei.test.plugin.TutorialPlugin.mage
+    permission-message: You don't have <permission>
+  guide:
+    description: summon a guide
+    usage: /<command>
+    permission: kei.test.plugin.TutorialPlugin.mage
+    permission-message: You don't have <permission>
+  tipsguide:
+    description: summon a tips guide
+    usage: /<command>
+    permission: kei.test.plugin.TutorialPlugin.mage
+    permission-message: You don't have <permission>
+  library:
+    description: summon a library
+    usage: /<command>
+    permission: kei.test.plugin.TutorialPlugin.library
+    permission-message: You don't have <permission>
+  killMonsters:
+    description: kill monsters around a command sender
+    usage: /<command>
+    permission: kei.test.plugin.TutorialPlugin.killMonsters
+    permission-message: You don't have <permission>
